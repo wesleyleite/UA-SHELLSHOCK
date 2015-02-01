@@ -19,11 +19,6 @@ A extensão utiliza o User-Agent para injetar o comando, existem outras formas d
 Ao finalizar seus testes desative a extensão no navegador e tenha certeza de sempre desativar quando não for usar.
 
 
-Melhorias
-=============
--> Criar botão para ativar e desativar diretamente no navegador.  [ assim que tiver um tempo ]
-
-
 Referência
 =============
 https://developer.chrome.com/extensions/webRequest
