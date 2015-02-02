@@ -3,6 +3,16 @@ UA-SHELLSHOCK
 
 Chrome extension injeção de comando via 'User-Agent'.
 
+Active icon
+=============
+
+![alt tag](https://github.com/wesleyleite/UA-SHELLSHOCK/blob/master/img/active-icon1.png)
+
+Inactive icon
+=============
+
+![alt tag](https://github.com/wesleyleite/UA-SHELLSHOCK/blob/master/img/no-active-icon.png)
+
 INFORMAÇÕES
 =============
 Este projeto é educacional, apenas demonstrando o quanto seria fácil criar uma extensão para o google chrome com intuito de explorar a recente falha do Bash.
